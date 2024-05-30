@@ -1,0 +1,22 @@
+#todoList {
+  min-height: 50vh;
+  .filterMenuList {
+    list-style-type: none;
+    .listEl {
+      text-decoration: underline 0.1rem #ffffff;
+      text-underline-offset: 0.7rem;
+      transition: text-decoration-color 300ms, text-underline-offset 300ms;
+      &.active,
+      &:hover {
+        color: #0d6efd;
+        text-decoration-color: #0d6efd;
+      }
+    }
+  }
+
+  .table > :not(caption) > * > * {
+    color: #868686;
+    padding: 1.5rem;
+    vertical-align: middle;
+  }
+}

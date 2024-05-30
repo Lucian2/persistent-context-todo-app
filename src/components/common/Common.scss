@@ -1,0 +1,13 @@
+.deleteBox {
+  padding: 0.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 5%;
+  z-index: 2;
+  background: #ffffff;
+  border-radius: 1rem;
+  min-width: 18.5rem;
+  @media screen and (max-width: 575px) {
+    min-width: 14.5rem;
+  }
+}
